@@ -1,0 +1,30 @@
+.Row {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: -80px;
+  width: 70%;
+}
+
+.Col {
+  background-color: #c3f1dd;
+  opacity: 1;
+  border-radius: 10px;
+
+  z-index: 1;
+  width: 150px;
+  margin-bottom: 20px;
+
+  align-items: center;
+}
+
+.Col:hover {
+  background-color: #99f8d1;
+}
+
+@media (max-width: 576px) {
+  .Row {
+    margin-top: -45px;
+  }
+}
